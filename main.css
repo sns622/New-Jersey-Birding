@@ -1,0 +1,236 @@
+/*DEVELOPER: Shreya Sridhar, IS117-002, Spring 2026*/
+#home-header {
+    background-image: url('../images/home-banner.png');
+    background-size: cover;
+    background-position: center 47%;
+    min-height: 330px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+#home-header h1{
+    color: rgba(255,255,255, 0.5);
+    font-size: 90pt;
+    text-align: center;
+}
+
+#birds-header1 {
+    background-image: url('../images/backyardbirdsbanner.jpg');
+    background-size: cover;
+    background-position: center 75%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    margin: 20px 10px 20px 10px;
+    text-align: center;
+}
+
+#birds-header2 {
+    background-image: url('../images/shorebirdsbanner.png');
+    background-size: cover;
+    background-position: center 75%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    margin: 20px 10px 20px 10px;
+    text-align: center;
+}
+
+#birds-header3 {
+    background-image: url('../images/birdsofpreybanner.png');
+    background-size: cover;
+    background-position: center 75%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    margin: 20px 10px 20px 10px;
+    text-align: center;
+}
+
+#birds-header1 h1{
+    font-size: 50pt;
+    color: white;
+}
+
+#birds-header2 h1{
+    font-size: 50pt;
+    color: white;
+}
+
+#birds-header3 h1{
+    font-size: 50pt;
+    color: white;
+}
+
+p{
+    padding-top: 20px;
+    font-size: 18pt;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 350px;
+  margin: auto;
+  height: 350px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.flip-card-front p {
+    color: #ffe251;
+    font-size: 35pt;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.flip-card-back {
+  background-color: lightgray;
+  color: black;
+  transform: rotateY(180deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: large;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.birds-image {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.photo-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.photo-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 35pt;
+}
+
+.photo-text a{
+    color: white;
+}
+
+.photo-text a:hover{
+    color:#ffe251;
+}
+
+.row-home {
+    margin: -20px 50px 50px 50px;
+}
+
+#birding-header {
+    background-image: url('../images/birdwatching.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    color: white;
+}
+
+#birding-header h1{
+    font-size: 48pt;
+    text-align: center;
+}
+
+.birds-paragraph{
+    font-size: 18pt;
+}
+
+.supplies{
+   padding-left: 20px;
+   padding-top: 20px;
+   padding-right: 20px;
+   font-size: 18pt;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.grid-photo {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.col-8{
+    padding-top: 30px;
+}
+
+.col-8 p{
+    font-size: 18pt;
+}
+
+body {
+  padding-bottom: 100px;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
